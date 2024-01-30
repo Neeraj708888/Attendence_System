@@ -1,0 +1,11 @@
+.mainDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+    background: var(--orange);
+    border: 1px solid #000;
+    border-radius:8px;
+}

@@ -1,0 +1,58 @@
+.CompactCard{
+    display: flex;
+    flex: 1;
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    height: 7rem !important;
+    border-radius: 0.7rem;
+    box-shadow: "0px 10px 20px 0px #F9D59B";
+    color: white;
+    background-color:#0a0a0a;
+    position: relative;
+    cursor: pointer;
+    padding: 2rem;
+}
+.CompactCard:hover{
+    box-shadow: none;
+}
+/* Radial-bar */
+.radial-bar{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.CircularProgressbar{
+    width: 4rem !important;
+    overflow: visible;
+}
+.CircularProgressbar-path{
+    stroke: white mpo !important;
+    stroke-width: 12px !important;
+    filter: drop-shadow(2px 4px 6px white);
+}
+.CircularProgressbar-trail{
+    display: none;
+}
+.CircularProgressbar-text{
+    fill: white !important;
+
+}
+.radial-bar>span{
+    font-size: 17px;
+    font-weight: bold;
+}
+/* Details */
+.details{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.details>span:nth-child(5){
+    font-size: 22px;
+    font-weight: bold;
+}
